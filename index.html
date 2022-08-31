@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="build/css/app.css">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
     <header class="header contenedor">
@@ -37,11 +39,13 @@
             </nav>
         </div>
     </div>
-    <secion class="slider">
+    <section class="slider contenedor">
         <ul class="slider__contenedor">
-            <li class="slider__slice"><img src="./build/img/slide_02.jpg" alt="imagen slide"></li>
+            <li class="slider__slide"><img class="slider__imagen" src="./build/img/slide_01.jpg" alt="imagen slide"></li>
+            <li class="slider__slide"><img class="slider__imagen" src="./build/img/slide_02.jpg" alt="imagen slide"></li>
+            <li class="slider__slide"><img class="slider__imagen" src="./build/img/slide_03.jpg" alt="imagen slide"></li>
         </ul>
-    </secion>
+    </section>
     <section class="bienvenida seccion">
         <h1 class="bienvenida__heading">bienvenida(o) nuestro <span>Sitio Web</span></h1>
         <p class="bienvenida__texto">Te senteras como nuevo(o) on nuestros masajistas profesionales</p>
@@ -201,5 +205,7 @@
         </div>
         <p class="footer__copyright">Carolina Spa & Salon, Todos los derechos reservados</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
